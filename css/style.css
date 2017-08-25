@@ -1,0 +1,144 @@
+body {
+    font-family: sans-serif, helvetica, arial;
+}
+/* Navigaton bullets styles */
+ #pp-nav li .active span, .pp-slidesNav .active span {
+    background: #bbb;
+}
+#pp-nav span, .pp-slidesNav span {
+    border-color: #bbb !important;
+}
+/* Sections */
+.section {
+    background-attachment: fixed;
+    /* background-size: auto 80%;
+    background-size: auto 100%;
+    background-position: 50% 0%; */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#section1 {
+    background-image: linear-gradient(180deg, #28F597 0%, #009efd 100%);
+    background-image: url(../img/cover1.svg);
+}
+#section2 {
+    background-image: url(../img/cover2.svg);
+}
+
+#pagepiling{
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+/* Intro Heading */
+.intro {
+    position: absolute;
+    bottom: 100px;
+    text-align: center;
+    width: 100%;
+}
+.intro h1 {
+    font-size: 5em;
+    font-weight: bold;
+    color: #000;
+}
+#section4 .intro {
+    color: #000;
+}
+/* Content page */
+ .header {
+    padding-top: 80px;
+    text-align: center;
+}
+.header h1 {
+    font-size: 5em;
+    font-weight: bold;
+    /* color: #fff; */
+}
+.header p {
+    /* color: #f2f2f2; */
+    font-size: 1.7em;
+}
+.page {
+    width: 80%;
+    margin: 60px auto;
+    background:white;
+    padding: 60px;
+    -webkit-box-sizing: border-box;
+    /* Safari<=5 Android<=3 */
+    -moz-box-sizing: border-box;
+    /* <=28 */
+    box-sizing: border-box;
+}
+.page p {
+    font-style: 12px;
+    margin: 20px 0 0 0;
+    line-height: 1.35em;
+    color: #333;
+}
+/* Showcase slide */
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 220px;
+    height: 220px;
+    border-radius:15px;
+}
+
+/* Navigation dots customization */
+.pp-tooltip{
+    color:#f5576c;
+    left: 24px;
+    top:4px;
+}
+#pp-nav span{
+    width: 16px;
+    height: 16px;
+    border-color: #f093fb !important;
+    border-color: #c3cfe2 !important;
+    border-width: 2px;
+}
+#pp-nav li .active span{
+    background: #f5576c;
+}
+#pp-nav li{
+    height:24px;
+}
+/* Mouse scroll icon */
+
+.scroll-downs {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    left: 0;
+    margin: auto;
+    z-index: 999;
+    width :28px;
+    height: 45px;
+  }
+  .mousey {
+    width: 3px;
+    padding: 8px 12px;
+    height: 25px;
+    border: 2px solid #C73133;
+    border-radius: 25px;
+    opacity: 0.75;
+  }
+  .scroller {
+    width: 3px;
+    height: 10px;
+    border-radius: 25%;
+    background-color: #C73133;
+    animation-name: scroll;
+    animation-duration: 2.2s;
+    animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+    animation-iteration-count: infinite;
+  }
+  @keyframes scroll {
+    0% { opacity: 0; }
+    10% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(15px); opacity: 0;}
+  }
