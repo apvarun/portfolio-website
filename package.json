@@ -5,7 +5,7 @@
   "author": "Varun A P",
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "rmdir /S /Q dist && webpack --config webpack.config.dist.js -p"
+    "build": "webpack --config webpack.config.dist.js -p"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
