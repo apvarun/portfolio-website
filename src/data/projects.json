@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Atom UI - A Repository Of The Best UI Designs For Inspiration",
+        "body": "Atom UI is a design inspiration platform designed specifically to showcase the best UI designs on the internet. All the designs are carefully handpicked to deliver better designs to you.",
+        "image": "/images/atom-ui.jpeg",
+        "link": "https://atomui.com"
+    },
+    {
+        "id": 2,
+        "title": "Toastify JS - Better notification messages",
+        "body": "Toastify is a lightweight, vanilla JS toast notification library. It is highly performant and customizable, supporting multiple stacked notifications.",
+        "image": "/images/toastify-js.jpeg",
+        "link": "https://apvarun.github.io/toastify-js/"
+    },
+    {
+        "id": 3,
+        "title": "Gradients Party",
+        "body": "Gradients Party is a collection 🗃️ of gradients for buttons. Select the cradient you like, and copy the CSS to your project right away.",
+        "image": "/images/gradients-party.jpeg",
+        "link": "https://gradients.party/"
+    }
+]
