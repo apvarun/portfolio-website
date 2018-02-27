@@ -19,7 +19,7 @@ export default class App extends Component {
     constructor(props) {
         super(props);
         this.state = {
-			projects: projectList,
+			projects: projectList.reverse(),
 			designs: designList
         };
     }

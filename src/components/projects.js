@@ -40,7 +40,7 @@ export default class Projects extends Component {
 			<div className="page projects">
 				<h1>Projects</h1>
 				<TransitionGroup component="ul">
-					{this.state.projects.reverse().map((p, i) => {
+					{this.state.projects.map((p, i) => {
 						const style = {
 							opacity: this.state.animations[i],
 							transform: Animated.template`
