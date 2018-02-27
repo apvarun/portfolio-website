@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "rmdir /S /Q dist && webpack --config webpack.config.dist.js -p"
+    "build": "rm -rf ./dist && webpack --config webpack.config.dist.js -p"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
