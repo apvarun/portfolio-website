@@ -7,7 +7,7 @@ export default class TopBar extends Component {
 			<div className="top-bar">
 				<nav>
 					<NavLink exact to="/">Home</NavLink>
-					<NavLink to="/projects">Projects</NavLink>
+					<NavLink to="/projects">Side-Projects</NavLink>
 					<NavLink to="/designs">Designs</NavLink>
 					{/* <NavLink to="/contact">Contact</NavLink> */}
 				</nav>
