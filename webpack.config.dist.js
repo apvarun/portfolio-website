@@ -110,7 +110,8 @@ module.exports = {
 			comments: true
 		}),
 		new CopyWebpackPlugin([
-            {from:'images/static/',to:'images'} 
+			{from:'images/static/',to:'images'},
+			{from:'_redirects',to:''}
         ]),
 		new webpack.DefinePlugin({
 			"process.env.NODE_ENV": JSON.stringify("production")
