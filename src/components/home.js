@@ -40,12 +40,12 @@ export default class Home extends Component {
                     </li>
                     <li>
                         <a href="https://codepen.io/apvarun/" target="_blank" rel="noopener">
-                            <img src={dribbbleIcon} alt="Codepen"/>
+                            <img src={codepenIcon} alt="Codepen"/>
                         </a>
                     </li>
                     <li>
                         <a href="https://dribbble.com/apvarun" target="_blank" rel="noopener">
-                            <img src={codepenIcon} alt="Dribbble"/>
+                            <img src={dribbbleIcon} alt="Dribbble"/>
                         </a>
                     </li>
                 </ol>
